@@ -1,0 +1,28 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #8d7af6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.piano svg {
+    width: 100%;
+    /* height: 110px; */
+} 
+
+a path {
+    transition: all .2s;
+}
+
+a:hover path.white-keys {
+    fill: #c6d6db;
+}
+
+a:hover path.black-keys {
+    fill: #2e2e2e;
+}
